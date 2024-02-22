@@ -1,3 +1,18 @@
+// -----------------------------------------------------------------------
+// to run:
+// cargo run <word you're looking for> <text file name you're searching>
+// ie cargo run frong poem.txt
+//
+// to set case sensitive off:
+// $ export CASE_INSENSITIVE=true
+// $ cargo run <word> <txt file name>
+//
+// to set case sensitive on:
+// $ unset CASE_INSENSITIVE
+// $ cargo run <word> <txt file name>
+//
+// -----------------------------------------------------------------------
+
 use std::env;
 use std::process;
 
